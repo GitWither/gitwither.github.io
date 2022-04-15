@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="data/programming_projects.js" defer></script>
+        <script src="js/carousels_generator.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+
+    <header>
+        <div class="container text-center mt-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1>Hobby Programming Projects</h1>
+                    <p class="lead text-muted">I really enjoy programming, especially tools that help people out! Take a look at some of my programming projects that I've created!</p>
+                    <a href="index.html" class="btn btn-primary">Home</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <body onload="populateProjectInfo(programming_projects, 'programming')">
+        <div class="bg-light my-5">
+            <div class="container">
+                <div id="main_row" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3"></div>
+            </div>
+        </div>
+    </body>
+</html>
