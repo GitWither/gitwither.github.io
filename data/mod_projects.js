@@ -51,5 +51,16 @@ var mod_projects = [
                 "source": "keyart.png"
             }
         ]
+    },
+    {
+        "name": "Sonic Deflect",
+        "id": "sonic_deflect",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/sonic-deflect",
+        "description": "Adds an enchantment that allows you to deflect the Warden's sonic beam to deal damage to other entities",
+        "images": [
+            {
+                "source": "keyart.png"
+            }
+        ]
     }
 ]
