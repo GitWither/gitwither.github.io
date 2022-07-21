@@ -62,5 +62,16 @@ var mod_projects = [
                 "source": "keyart.png"
             }
         ]
+    },
+    {
+        "name": "Spray Madness",
+        "id": "spray_madness",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/spray-madness",
+        "description": "Allows you to import custom images and spray them as graffiti in your Minecraft world",
+        "images": [
+            {
+                "source": "keyart.png"
+            }
+        ]
     }
 ]
