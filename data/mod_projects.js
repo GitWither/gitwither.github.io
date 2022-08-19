@@ -73,5 +73,16 @@ var mod_projects = [
                 "source": "keyart.png"
             }
         ]
+    },
+    {
+        "name": "Text Block",
+        "id": "text_block",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/text-block",
+        "description": "Add floating text of any kind to your world. A sign but cooler!",
+        "images": [
+            {
+                "source": "keyart.png"
+            }
+        ]
     }
 ]
