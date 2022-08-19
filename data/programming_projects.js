@@ -1,5 +1,16 @@
 var programming_projects = [
     {
+        "name": "SharpActors",
+        "id": "sharpactors",
+        "description": "A fast and lightweight Entity Component System written in C#",
+        "link": "https://github.com/GitWither/SharpActors",
+        "images": [
+            {
+                "source": "keyart.png"
+            }
+        ]
+    },
+    {
         "name": "SharpGame",
         "id": "sharpgame",
         "description": "A lightweight 3D engine with the focus of being easy to setup and use, employing technologies such as OpenGL, OpenAL and GLFW",
